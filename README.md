@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Peluquería GlamStyle - Backend (avance)
 
 **Descripción breve:** Proyecto backend en Node.js + Express + MongoDB con autenticación JWT para gestionar usuarios, servicios y citas.
@@ -34,3 +35,6 @@ peluqueria-backend/
 
 ## Notas
 - Este repositorio es un **avance**: faltan validaciones avanzadas, manejo de roles y tests.
+=======
+# Peluqueria
+>>>>>>> feae7a34d630e525fe204798376a954426311ebf
