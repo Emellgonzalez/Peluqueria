@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peluquería GlamStyle</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>💇‍♀️ Peluquería GlamStyle</h1>
+
+        <section id="registro">
+            <h2>Registro</h2>
+            <input type="text" id="nombre" placeholder="Nombre" />
+            <input type="email" id="email" placeholder="Correo electrónico" />
+            <input type="password" id="password" placeholder="Contraseña" />
+            <button onclick="registrar()">Registrar</button>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <input type="email" id="loginEmail" placeholder="Correo" />
+            <input type="password" id="loginPassword" placeholder="Contraseña" />
+            <button onclick="login()">Iniciar Sesión</button>
+        </section>
+
+        <section id="servicios" style="display:none;">
+            <h2>Servicios</h2>
+            <ul id="listaServicios"></ul>
+            <h3>Agregar servicio</h3>
+            <input type="text" id="servicioNombre" placeholder="Nombre del servicio" />
+            <input type="number" id="servicioPrecio" placeholder="Precio" />
+            <button onclick="crearServicio()">Crear</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
